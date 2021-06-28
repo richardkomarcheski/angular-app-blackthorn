@@ -1,7 +1,11 @@
 {
   "name": "angular-app-blackthorn",
   "version": "0.0.0",
-  "scripts": {
+"engines":{
+  "node":"12.14.0",
+  "npm":"6.14.0",
+  "@angular/cli":"12.1.0"
+},  "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
